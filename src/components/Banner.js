@@ -57,7 +57,13 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Benvenuto nel mio Portfolio!</span>
                 <h1>{`Ciao, sono Felice un:`} <span className="txt-rotate" dataperiod="1000" data-rotate='[ "Web Developer", "Mobile Developer", "Software Developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Sono un neodiplomato come perito informatico e durante i miei anni ho avuto modo di conoscere in maniera del tutto autonomamente diverse tecnologie e linguaggi di programmazione. Inoltre durante la mia permanenza scolastica ho avuto modo di partecipare a diversi progetti per conto di: Adecco, Hackathon, UniCredit e Sistemya.</p>
+                  <p>Ciao a tutti! Sono un perito informatico diplomato presso l'istituto "ITIS Galileo Ferraris" di Napoli. Durante il mio percorso, ho dedicato il mio tempo libero alla realizzazione di un progetto personale ambizioso: una macchina a guida autonoma, che mi ha permesso di mettere in pratica le mie conoscenze e di affinare le mie abilità ingegneristiche.
+
+Un'altra passione che mi ha accompagnato nel mio percorso professionale è l'amore per Apple e le loro tecnologie. Ho raggiunto il titolo di "Apple Teacher", dimostrando la mia competenza nell'utilizzo delle loro soluzioni innovative.
+
+Attualmente, mi occupo di sviluppo software come software developer, sfruttando le mie competenze in programmazione per creare soluzioni tecniche efficaci e intuitive.
+
+Sono sempre alla ricerca di nuove sfide e opportunità che mi permettano di crescere come professionista nel campo dello sviluppo software. Se siete interessati a connettervi e scambiare idee sulle possibili sinergie, non esitate a mettervi in contatto con me.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
