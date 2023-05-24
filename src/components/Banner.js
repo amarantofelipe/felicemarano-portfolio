@@ -4,6 +4,7 @@ import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import {apple} from "../assets/img/AppleTeacher_black.svg";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -61,7 +62,8 @@ export const Banner = () => {
                   Nel mio percorso professionale c’è l’apprendimento delle nuove tencologie sviluppate da Apple, dimostrando la mia competenza nell'utilizzo delle loro soluzioni innovative, acquisendo il titolo di “Apple Teacher”.<br></br>
                   Attualmente, mi occupo di sviluppo software come software developer, per creare soluzioni tecniche efficaci e intuitive.
                   </p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  {/* <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
+                  <img src={apple} />
               </div>}
             </TrackVisibility>
           </Col>
