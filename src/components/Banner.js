@@ -62,10 +62,7 @@ export const Banner = () => {
                   Nel mio percorso professionale c’è l’apprendimento delle nuove tencologie sviluppate da Apple, dimostrando la mia competenza nell'utilizzo delle loro soluzioni innovative, acquisendo il titolo di “Apple Teacher”.<br></br>
                   Attualmente, mi occupo di sviluppo software come software developer, per creare soluzioni tecniche efficaci e intuitive.
                   </p>
-                  {/* <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
-                  <HashLink to='#connect'>
-                    <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
-                  </HashLink>
+                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
                   {/* <img src={apple} className="App-logo" alt="logo" /> */}
               </div>}
             </TrackVisibility>
