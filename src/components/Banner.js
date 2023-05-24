@@ -57,8 +57,8 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Benvenuto nel mio Portfolio!</span>
                 <h1>{`Ciao, sono Felice un:`} <span className="txt-rotate" dataperiod="1000" data-rotate='[ "Web Developer", "Mobile Developer", "Software Developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Sono un diplomato come perito informatico. Durante il mio percorso, ho dedicato il mio tempo libero alla realizzazione di un progetto personale ambizioso: una macchina a guida autonoma, che mi ha permesso di mettere in pratica le mie conoscenze e di affinare le mie abilità ingegneristiche.
-                  Nel mio percorso professionale c’è l’apprendimento delle nuove tencologie sviluppate da Apple, dimostrando la mia competenza nell'utilizzo delle loro soluzioni innovative, acquisendo il titolo di “Apple Teacher”.
+                  <p>Sono un diplomato come perito informatico. Durante il mio percorso, ho dedicato il mio tempo libero alla realizzazione di un progetto personale ambizioso: una macchina a guida autonoma, che mi ha permesso di mettere in pratica le mie conoscenze e di affinare le mie abilità ingegneristiche. <br></br>
+                  Nel mio percorso professionale c’è l’apprendimento delle nuove tencologie sviluppate da Apple, dimostrando la mia competenza nell'utilizzo delle loro soluzioni innovative, acquisendo il titolo di “Apple Teacher”.<br></br>
                   Attualmente, mi occupo di sviluppo software come software developer, per creare soluzioni tecniche efficaci e intuitive.
                   </p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
