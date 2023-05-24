@@ -63,7 +63,7 @@ export const Banner = () => {
                   Attualmente, mi occupo di sviluppo software come software developer, per creare soluzioni tecniche efficaci e intuitive.
                   </p>
                   {/* <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
-                  <img src={apple} />
+                  <img src={apple} className="App-logo" alt="logo" />
               </div>}
             </TrackVisibility>
           </Col>
